@@ -33,15 +33,16 @@ jobs:
           git clone https://github.com/Osilvfe/dumpyara.git
           cd dumpyara
           sudo bash ./setup.sh
-          sudo apt install aria2
+          sudo apt install curl
+          
           
 
-      - name: Download Super.img
+      - name: Download super.img
         run: |
-          aria2c ${{ github.event.inputs.Rom_URL }}
+          curl -o super.img ${{ github.event.inputs.Rom_URL }}
 
       - name: Dump rom
         run: |
-          bash ./dumpyara "./Super.img" ${{ github.event.inputs.token }}
+          bash ./dumpyara "./super.img" ${{ github.event.inputs.token }}
           
           
