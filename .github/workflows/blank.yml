@@ -6,10 +6,10 @@ name: dump ROM for OPPO PECM30
 on:
   workflow_dispatch:
     inputs:
-      Rom_URL:
-        description: 'Rom_URL'
+      Rom_name:
+        description: 'Rom_name'
         required: true
-        default: 'https://1400q5-my.sharepoint.com/personal/microadmin_1400q5_onmicrosoft_com/Documents/super.img'
+        default: './'
       token:
         description: "token"
         required: true
@@ -37,12 +37,12 @@ jobs:
           
           
 
-      - name: Download super.img
+      - name: Download ROM files
         run: |
           bash ./download.sh
       
       - name: Dump rom
         run: |
-          bash ./dumpyara.sh "./super.img" ${{ github.event.inputs.token }}
+          bash ./dumpyara.sh ${{ github.event.inputs.Rom_name }} ${{ github.event.inputs.token }}
           
           
