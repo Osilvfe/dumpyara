@@ -9,7 +9,7 @@ on:
       Rom_URL:
         description: 'Rom_URL'
         required: true
-        default: 'https://1400q5-my.sharepoint.com/personal/microadmin_1400q5_onmicrosoft_com/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fmicroadmin%5F1400q5%5Fonmicrosoft%5Fcom%2FDocuments%2Fsuper%2Eimg'
+        default: 'https://1400q5-my.sharepoint.com/personal/microadmin_1400q5_onmicrosoft_com/Documents/super.img'
       token:
         description: "token"
         required: true
@@ -33,10 +33,12 @@ jobs:
           git clone https://github.com/Osilvfe/dumpyara.git
           cd dumpyara
           sudo bash ./setup.sh
+          sudo apt install aria2
+          
 
       - name: Download Super.img
         run: |
-          wget ${{ github.event.inputs.Rom_URL }}
+          aria2c ${{ github.event.inputs.Rom_URL }}
 
       - name: Dump rom
         run: |
