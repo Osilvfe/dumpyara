@@ -33,13 +33,13 @@ jobs:
           git clone https://github.com/Osilvfe/dumpyara.git
           cd dumpyara
           sudo bash ./setup.sh
-          sudo apt install curl
+          sudo apt install wget
           
           
 
       - name: Download super.img
         run: |
-          curl -o super.img ${{ github.event.inputs.Rom_URL }}
+           wget --user-agent=“Mozilla” ${{ github.event.inputs.Rom_URL }}
 
       - name: Dump rom
         run: |
