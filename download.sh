@@ -1,18 +1,17 @@
-curl --parallel --parallel-immediate -k -L -C - -o super.img 'https://1400q5-my.sharepoint.com/personal/microadmin_1400q5_onmicrosoft_com/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fmicroadmin%5F1400q5%5Fonmicrosoft%5Fcom%2FDocuments%2Fsuper%2Eimg' \
-  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
-  -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
-  -H 'cookie: MicrosoftApplicationsTelemetryDeviceId=a4708e08-b288-4006-8303-064c2ad1733d; MSFPC=GUID=f14b3522ba934c53a78fca94ba9f3beb&HASH=f14b&LV=202309&V=4&LU=1696031465562; SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjEzLDBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMmQxODlmNWFkQGxpdmUuY29tLDAjLmZ8bWVtYmVyc2hpcHxtaWNyb2FkbWluQDE0MDBxNS5vbm1pY3Jvc29mdC5jb20sMTMzNjUyMjA5MzcwMDAwMDAwLDEzMzM2MTM4MDExMDAwMDAwMCwxMzM2NTY1Mjk1NTYzNDAwMDcsMTguMTgxLjE4My4xOTgsNDYxMTY4NjAxODQyNzM4Nzk3Myw1MjVkODcyMC00MTA3LTRmMTMtOTRhNS1jOGMzMGYwYTY1NTEsLDIwYjIwODY3LWY4NTktNGY1Ny05MjY1LTVkYWI0MDRmN2Y5MCw1YzZiM2JhMS02MDU0LTMwMDAtN2MwNy04OTUwNTg0NGRhZjIsNWM2YjNiYTEtNjA1NC0zMDAwLTdjMDctODk1MDU4NDRkYWYyLCwwLDAsMCwsLGV5SjFkR2tpT2lKT1lWTnljRkJpVldVd2FUUjFjbXh6YjNONVFrRkJJbjA9LDI2NTA0Njc3NDM5OTk5OTk5OTksMTMzNjUyMjA5MzcwMDAwMDAwLGRhMDdhZDBhLWVjYjAtNDUxNS05NTk2LTQ3YjI1NzRiYzVlMywsLCwsLDAsLDE5NTk5MSxEYURBZmpRUW1weU9YeDJScktfVzVsdm9MWjQsMEtOcWN4NzlHcEpIQzhWZGUvWTlaUlhMTkgyVXY2MlR4YlZJZU1qVmxxaGpWc1c2dTM3RHR3K2xZSnpEejNiOXJoMUhxZmJOZjVQajB5ZnN3TDNjTXA2RUZaVGRCdGwxc2Zlek1rdVRoK3FScXJSM2s0NWFpRW82QjN5NFI2T2h5T011cDBUczJuNGtzM215N29yQ1psckVYNElZSUR0Slo4YmtRNXY5TkNsaXVTeUZNa2NFOEVyWTd4L1Fad0Mzcjh2cC9HS1Y5QWxpWVo5OEtoQ1psczNldGtBOGU3ZDFhU0JLcmtGa25RK0ZySnNvaVE1ZnU3RHBudGt0cHV5MExwZHJRU1lqenZucm9wZ3NHT21rMVE1anNvMjFiRHlhbXlqbzVkbTV1dWlBTWEyM3JJQzZrUGl2N1lqa2hxR1l6WEl5YWk2bFF5ejkreFVpaEdVZXRnPT08L1NQPg==; FeatureOverrides_experiments=[]; ai_session=hSFCOhtyepw9LSHiYODYnM|1720787801891|1720788051626' \
-  -H 'dnt: 1' \
-  -H 'priority: u=0, i' \
-  -H 'referer: https://1400q5-my.sharepoint.com/personal/microadmin_1400q5_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmicroadmin%5F1400q5%5Fonmicrosoft%5Fcom%2FDocuments%2Fsuper%2Eimg&parent=%2Fpersonal%2Fmicroadmin%5F1400q5%5Fonmicrosoft%5Fcom%2FDocuments&ga=1' \
+curl --parallel --parallel-immediate -k -L -C - -o zzz.ozip 'https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20211102095334/PECM30_11_OTA_0100_all_yTTvpuXCnSQ1.ozip' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _hjSessionUser_2052333=eyJpZCI6ImRkODVmZjkzLTM3ZDMtNWI1YS1iNDI1LTkwZTc5YjQ4NTljOCIsImNyZWF0ZWQiOjE3MDQwMDc4MjA2OTcsImV4aXN0aW5nIjp0cnVlfQ==; _ga_025F6DCW6B=GS1.1.1704007819.1.1.1704008686.35.0.0; Hm_lvt_1654f286dac930a868f0823c966f217e=1707134942,1708066192; _gcl_au=1.1.505726907.1720407412; _ga=GA1.1.536587355.1704007820; _ga_VD2VD3WEY3=GS1.1.1720407414.7.1.1720407749.10.0.0; Hm_lvt_a917ebf46c87d5881a1ef8c4a2946afc=1720332168,1720523730,1720747109,1720782407; HMACCOUNT=2DFDF1D9BA2D7A61; Hm_lpvt_a917ebf46c87d5881a1ef8c4a2946afc=1720791424' \
+  -H 'DNT: 1' \
+  -H 'Referer: https://www.coloros.com/' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0' \
   -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"' \
   -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "Windows"' \
-  -H 'sec-fetch-dest: iframe' \
-  -H 'sec-fetch-mode: navigate' \
-  -H 'sec-fetch-site: same-origin' \
-  -H 'sec-fetch-user: ?1' \
-  -H 'service-worker-navigation-preload: {"supportsFeatures":[]}' \
-  -H 'upgrade-insecure-requests: 1' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'
+  -H 'sec-ch-ua-platform: "Windows"'
   
