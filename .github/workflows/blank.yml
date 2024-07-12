@@ -43,6 +43,6 @@ jobs:
 
       - name: Dump rom
         run: |
-          bash ./dumpyara "./super.img" ${{ github.event.inputs.token }}
+          bash ./dumpyara.sh "./super.img" ${{ github.event.inputs.token }}
           
           
