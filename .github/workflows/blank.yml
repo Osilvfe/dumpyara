@@ -34,16 +34,16 @@ jobs:
           cd dumpyara
           sudo bash ./setup.sh
           sudo apt install curl
-          pip3 show pycryptodome
+
           
           
 
-     # - name: Download ROM files
-     #   run: |
-     #     bash ./download.sh
+      - name: Download ROM files
+        run: |
+          bash ./download.sh
       
-     # - name: Dump rom
-     #   run: |
-     #     bash ./dumpyara.sh ${{ github.event.inputs.Rom_name }} ${{ github.event.inputs.token }}
+      - name: Dump rom
+        run: |
+          bash ./dumpyara.sh ${{ github.event.inputs.Rom_name }} ${{ github.event.inputs.token }}
           
           
