@@ -1,4 +1,4 @@
-curl --parallel --parallel-immediate -k -L -C - -o zzz.ozip 'https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20211102095334/PECM30_11_OTA_0100_all_yTTvpuXCnSQ1.ozip' \
+curl --parallel --parallel-immediate -k -L -C - -o zzz.zip 'https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20211102095334/PECM30_11_OTA_0100_all_yTTvpuXCnSQ1.ozip' \
   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
   -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
   -H 'Connection: keep-alive' \
