@@ -34,7 +34,7 @@ jobs:
           cd dumpyara
           sudo bash ./setup.sh
           sudo apt install curl
-          pip3 show Crypto
+          pip3 show pycryptodemo
           
           
 
